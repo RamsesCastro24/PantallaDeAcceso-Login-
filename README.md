@@ -20,7 +20,7 @@ que se puede descargar en el siguiente link _
 
 Para ejecutar el programa con Librerias desde CMD utilizar este comando desues de estar en la carpeta de las clases y haber corrido la maquina virtual de JAva en la terminal
 ```
-Da un ejemplo
+
 
 ### Instalación 
 
@@ -43,11 +43,6 @@ Version 1.0
 Castro Luna Ramses Uriel
 
 
-## Licencia 
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-
 ## Expresiones de Gratitud 
-
+Gracias a la busqueda de diferentes fuentes como lo fueron foros y mismos compañeros se lo gro crear este programam. 
 . 
