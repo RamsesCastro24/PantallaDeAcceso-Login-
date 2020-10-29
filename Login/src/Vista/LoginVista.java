@@ -101,19 +101,19 @@ public class LoginVista extends JFrame {
         Entrar.setSelected(true);
         Panel.add(Entrar, new AbsoluteConstraints(70, 400, -1, -1));
 
-        NuevoUser.setBackground(new Color(0,0,0));
-        NuevoUser.setForeground(new Color(0,0,0));
-        NuevoUser.setBorder(null);
+//        NuevoUser.setBackground(new Color(0,0,0));
+//        NuevoUser.setForeground(new Color(0,0,0));
+//        NuevoUser.setBorder(null);
         NuevoUser.setBorderPainted(false);
         NuevoUser.setContentAreaFilled(false);
-        NuevoUser.setIcon(new ImageIcon("src/image/icons10_RegisterSmall.png"));
+//        NuevoUser.setIcon(new ImageIcon("src/image/icons10_RegisterSmall.png"));
         NuevoUser.setCursor(new Cursor(Cursor.HAND_CURSOR));
-        Panel.add(NuevoUser, new AbsoluteConstraints(50, 470, -1, -1));
+//        Panel.add(NuevoUser, new AbsoluteConstraints(50, 470, -1, -1));
 
         getContentPane().add(Panel, new AbsoluteConstraints(0, 0, 290, 580));
         this.pack();
 
-        NuevoUser.addActionListener(
+        Entrar.addActionListener(
                 (e) -> {
                     this.dispose();
                     RegistroModelo mod = new RegistroModelo();
@@ -122,6 +122,8 @@ public class LoginVista extends JFrame {
                     crt.iniciar();
                 }
         );
+        
+         
 
         Cerrar.addActionListener(
                 (e) -> {
